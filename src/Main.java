@@ -18,8 +18,8 @@ public class Main {
         System.out.println("Сумма трат за месяц составила " + sum + " рублей");
 
         //Задание 2
-        int minMany = arr [0];
-        int maxMany = arr [0];
+        int minMany = arr[0];
+        int maxMany = arr[0];
         for (int i : arr) {
             if (i < minMany) {
                 minMany = i;
