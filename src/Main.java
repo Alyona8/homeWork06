@@ -18,18 +18,18 @@ public class Main {
         System.out.println("Сумма трат за месяц составила " + sum + " рублей");
 
         //Задание 2
-        int minMany = arr[0];
-        int maxMany = arr[0];
+        int minSum = arr[0];
+        int maxSum = arr[0];
         for (int i : arr) {
-            if (i < minMany) {
-                minMany = i;
+            if (i < minSum) {
+                minSum = i;
             }
-            if (i > maxMany) {
-                maxMany = i;
+            if (i > maxSum) {
+                maxSum = i;
             }
         }
-        System.out.println("Минимальная сумма трат за день составила " + minMany + " рублей");
-        System.out.println("Максимальная сумма трат за день составила " + maxMany + " рублей");
+        System.out.println("Минимальная сумма трат за день составила " + minSum + " рублей");
+        System.out.println("Максимальная сумма трат за день составила " + maxSum + " рублей");
 
         //Задание 3
         double average = 0;
